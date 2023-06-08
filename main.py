@@ -4,6 +4,6 @@ print(" Este es un float",3.14)
 print("Este es un  booleano",True)
 
 
-print(Type(True))
-print(Type(3.24))
-print(Type(3))
+print(type(True))
+print(type(3.24))
+print(type(3))
