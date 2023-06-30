@@ -16,7 +16,7 @@ piedra
 papel
 Tijeras
 '''
-
+chaice_user = imput(choice_text)
 #imorime selecicon
 print("Usuario elige:", choice_user)
 print("maquina elige:", choice_maq)
@@ -26,21 +26,21 @@ if choice_user == choice_maq:
 
 else:
 
-if choice_user =='piedra' and choice_maq =='papel':
-    print("Gana MAquina!")
-   
-if choice_user =='piedra' and choice_maq =='Tijeras':
-    print("Gana usuario!")
-   
-if choice_user =='papel' and choice_maq =='piedra':
-    print("Gana Usuario!")
-   
-if choice_user =='papel' and choice_maq =='Tijeras':
-    print("Gana MAquina!")
-   
-if choice_user =='Tijeras' and choice_maq =='piedras':
-    print("Gana MAquina!")
-else:
-        print("Ganan usuario!")
-   
-   
+    if choice_user =='piedra' and choice_maq =='papel':
+        print("Gana MAquina!")
+    
+    if choice_user =='piedra' and choice_maq =='Tijeras':
+        print("Gana usuario!")
+    
+    if choice_user =='papel' and choice_maq =='piedra':
+        print("Gana Usuario!")
+    
+    if choice_user =='papel' and choice_maq =='Tijeras':
+        print("Gana MAquina!")
+    
+    if choice_user =='Tijeras' and choice_maq =='piedras':
+        print("Gana MAquina!")
+            print("Ganan usuario!")
+    else:
+            print("gana usuario")
+            

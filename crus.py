@@ -25,3 +25,15 @@ while True:
         comida = input("Escribe una comida: ")
         add_comida(comida)
 
+        if choice_user== 2: 
+            comida = input("Escribe una comida: ")
+        add_comida(comida)
+
+        if choice_user== 3:
+            show_comidas()
+        if choice_user== 4:
+            break
+        else:
+            print("Escribe bien ")
+
+
